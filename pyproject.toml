@@ -1,6 +1,6 @@
 [project]
 name = "drugfyi"
-version = "0.1.0"
+version = "0.1.1"
 description = "Drug interactions and pharmacology API client — drugfyi.com"
 readme = "README.md"
 license = "MIT"
@@ -40,6 +40,7 @@ all = ["drugfyi[api,cli,mcp]"]
 
 [project.scripts]
 drugfyi = "drugfyi.cli:app"
+drugfyi-mcp = "drugfyi.mcp_server:main"
 
 [project.entry-points."mcp.servers"]
 drugfyi = "drugfyi.mcp_server:mcp"
