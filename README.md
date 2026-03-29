@@ -263,6 +263,17 @@ Part of the [FYIPedia](https://fyipedia.com) open-source developer tools ecosyst
 | **drugfyi** | [PyPI](https://pypi.org/project/drugfyi/) | [npm](https://www.npmjs.com/package/drugfyi) | **Drug interactions, pharmacology, side effects — [drugfyi.com](https://drugfyi.com/)** |
 | nutrifyi | [PyPI](https://pypi.org/project/nutrifyi/) | [npm](https://www.npmjs.com/package/nutrifyi) | Nutrition data, food composition, dietary analysis — [nutrifyi.com](https://nutrifyi.com/) |
 
+## Embed Widget
+
+Embed [DrugFYI](https://drugfyi.com) widgets on any website with [drugfyi-embed](https://widget.drugfyi.com):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/drugfyi-embed@1/dist/embed.min.js"></script>
+<div data-drugfyi="entity" data-slug="example"></div>
+```
+
+Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.drugfyi.com)
+
 ## License
 
 MIT
