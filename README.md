@@ -274,6 +274,15 @@ Embed [DrugFYI](https://drugfyi.com) widgets on any website with [drugfyi-embed]
 
 Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.drugfyi.com)
 
+## Recently Updated (v0.1.2)
+
+Latest content state on [https://drugfyi.com](https://drugfyi.com):
+- [Homepage](https://drugfyi.com)
+- [Developer documentation](https://drugfyi.com/developers/)
+- [Sitemap (full content index)](https://drugfyi.com/sitemap.xml)
+
+Version bumped 2026-05-27 as part of the FYIPedia [SEO recovery refresh](https://github.com/dobestan).
+
 ## License
 
 MIT
